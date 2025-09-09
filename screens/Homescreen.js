@@ -73,8 +73,8 @@ async function fetchmydata (){
         {/* Search Section */}
         <View style={{ height: "8%" }} className="mx-4 relative z-50">
           <View
-            className=" rounded-full flex-row justify-end items-center  mt-12"
-            style={togglesearch ? { backgroundColor: "#e29578" } : null}
+            className="  flex-row justify-end items-center  mt-12"
+            style={togglesearch ? { backgroundColor: "#e29578" ,borderRadius : 30} : null}
           >
             {togglesearch ? (
               <TextInput
